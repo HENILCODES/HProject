@@ -5,11 +5,18 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
-
+::-webkit-scrollbar{
+  width: 0px;
+}
 .layout_padding {
   padding: 90px 0;
 }
-
+.user_option{
+  display: none !important;
+}
+.btn1{
+  visibility: hidden !important;
+}
 .layout_padding2 {
   padding: 75px 0;
 }
