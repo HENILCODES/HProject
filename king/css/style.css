@@ -5,6 +5,9 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
+html{
+scroll-behavior: smooth;
+}
 ::-webkit-scrollbar{
   width: 0px;
 }
@@ -345,7 +348,8 @@ a:focus {
 
 .slider_section .detail-box {
   color: #ffffff;
-  margin-bottom: 145px;
+  margin-top: 80px;
+  margin-bottom: 425px;
 }
 
 .slider_section .detail-box h1 {
